@@ -20,8 +20,7 @@ body {
 }
 
 .background-image{
-    background-color: rgb(143, 94, 0);
-    background-image: url("/Images/zoo.jpg");
+    background-image: url("images/zoo.jpg");
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
