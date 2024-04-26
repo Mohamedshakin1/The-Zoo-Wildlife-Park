@@ -126,7 +126,7 @@ nav p{
 }
 
 #image3 {
-    background-image: url('Images/Lemurs.jpeg');
+    background-image: url('/Images/Lemurs.jpeg');
     background-size: cover;
     background-position-x: center;
 }
