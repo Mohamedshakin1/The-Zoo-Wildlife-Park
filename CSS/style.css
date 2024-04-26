@@ -20,7 +20,7 @@ body {
 }
 
 .background-image{
-    background-image: url("..//images/zoo.jpg");
+    background-image: url("images/zoo.jpg");
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
