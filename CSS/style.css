@@ -20,7 +20,7 @@ body {
 }
 
 .background-image{
-    background-image: url("https://s28164.pcdn.co/files/Baby-Giraffe-Zindzhi-0032-2232-1280x720.jpg");
+    background-image: url('https://images.unsplash.com/photo-1534567153574-2b12153a87f0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8em9vfGVufDB8fDB8fHww');
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -114,25 +114,25 @@ nav p{
 }
 
 #image1 {
-    background-image: url('/Images/gold-tiger.jpg');
+    background-image: url('https://media.cnn.com/api/v1/images/stellar/prod/240214151539-02-golden-tiger-kaziranga-24012024.jpg?c=16x9');
     background-size:cover ;
     background-position-x: center;
 }
 
 #image2 {
-    background-image: url('/Images/Orangutan.jpg');
+    background-image: url('https://www.traffic.org/site/assets/files/22312/eu_seizures_report_2021_2.-767w.jpg');
     background-size: cover;
     background-position-x: center;
 }
 
 #image3 {
-    background-image: url('/Images/Lemurs.jpeg');
+    background-image: url('Images/Lemurs.jpeg');
     background-size: cover;
     background-position-x: center;
 }
 
 #image4 {
-    background-image: url('/Images/Giraffes.jpg');
+    background-image: url('Images/Giraffes.jpg');
     background-size: cover;
     background-position-x: center;
 }
