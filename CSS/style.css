@@ -20,7 +20,7 @@ body {
 }
 
 .background-image{
-    background-image: url("/Images/zoo.jpg");
+    background-image: url("https://s28164.pcdn.co/files/Baby-Giraffe-Zindzhi-0032-2232-1280x720.jpg");
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
