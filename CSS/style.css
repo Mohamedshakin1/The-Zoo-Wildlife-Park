@@ -126,19 +126,19 @@ nav p{
 }
 
 #image3 {
-    background-image: url('/Images/Lemurs.jpeg');
+    background-image: url('https://media2.s-nbcnews.com/i/msnbc/Components/Photos/040512/040512_lemur_hmed_5p.jpg');
     background-size: cover;
     background-position-x: center;
 }
 
 #image4 {
-    background-image: url('Images/Giraffes.jpg');
+    background-image: url('https://www.dublinzoo.ie/wp-content/uploads/2019/08/PB18131_DZ_374-1600x1067.jpg');
     background-size: cover;
     background-position-x: center;
 }
 
 #image5 {
-    background-image: url('/Images/Birds.jpg');
+    background-image: url('https://s28164.pcdn.co/files/Chilean-Flamingo-0139-7768-1280x720.jpg');
     background-size: cover;
     background-position-x: center;
 }
