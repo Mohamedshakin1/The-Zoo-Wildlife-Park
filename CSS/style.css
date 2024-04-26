@@ -21,7 +21,7 @@ body {
 
 .background-image{
     background-color: rgb(143, 94, 0);
-    background-image: url(/Images/zoo.jpg);
+    background-image: url('/Images/zoo.jpg');
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -115,31 +115,31 @@ nav p{
 }
 
 #image1 {
-    background-image: url(/Images/gold-tiger.jpg);
+    background-image: url('/Images/gold-tiger.jpg');
     background-size:cover ;
     background-position-x: center;
 }
 
 #image2 {
-    background-image: url(/Images/Orangutan.jpg);
+    background-image: url('/Images/Orangutan.jpg');
     background-size: cover;
     background-position-x: center;
 }
 
 #image3 {
-    background-image: url(/Images/Lemurs.jpeg);
+    background-image: url('/Images/Lemurs.jpeg');
     background-size: cover;
     background-position-x: center;
 }
 
 #image4 {
-    background-image: url(/Images/Giraffes.jpg);
+    background-image: url('/Images/Giraffes.jpg');
     background-size: cover;
     background-position-x: center;
 }
 
 #image5 {
-    background-image: url(/Images/Birds.jpg);
+    background-image: url('/Images/Birds.jpg');
     background-size: cover;
     background-position-x: center;
 }
