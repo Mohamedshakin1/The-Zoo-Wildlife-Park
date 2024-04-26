@@ -2,7 +2,8 @@ body {
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    font-family:"M PLUS Rounded 1c", sans-serif; 
+    font-family: "Rubik", sans-serif;
+    color: white;
 }
 
 ::selection {
@@ -15,25 +16,156 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 600px;
+    height: 630px;
 }
 
 .background-image{
-    background-image: url("/Images/Zoos.jpg");
+    background-color: rgb(143, 94, 0);
+    background-image: url("/Images/zoo.jpg");
     background-size: cover;
     background-position-x: center;
+    background-position-y: center;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 600px;
-    opacity: 0.3;
+    height: 630px;
+    opacity: 0.25;
+    position: absolute;
+    margin-top: -55px;
+    z-index:1
 }
 
 nav {
     display: flex;
-    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
-nav p {
+nav p{
     margin: 0;
+    padding-top: 25px;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.menu {
+    margin-top: 30px;
+    z-index: 2;
+    margin-left: 30%;
+    width: 45%;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    align-items: center;
+    margin-top: 175px;
+}
+
+.description p {
+    z-index: 2;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.description button{
+    font-size: 18px;
+    padding: 15px;
+    z-index: 2;
+    background-color: #F99417;
+    color: white;
+    border: none;
+}
+
+.attraction {
+    margin-top: 50px;
+}
+
+.attraction h1 {
+    text-align: center;
+    color: #F99417;
+}
+
+.img-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#image1 {
+    background-image: url("/Images/gold-tiger.jpg");
+    background-size:cover ;
+    background-position-x: center;
+}
+
+#image2 {
+    background-image: url("/Images/Orangutan.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+#image3 {
+    background-image: url("/Images/Lemurs.jpeg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+#image4 {
+    background-image: url("/Images/Giraffes.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+#image5 {
+    background-image: url("/Images/Birds.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+.images {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images p {
+    z-index: 2;
+    display: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.images:hover {
+    width: 350px;
+    transition: 3s;
+    opacity: 0.6;
+}
+
+.images:not(:hover) {
+    transition: 3s;
 }
