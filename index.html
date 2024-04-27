@@ -15,16 +15,19 @@
 </head>
 
 <body>
-    <div class="introduction">
+    <header>
         <nav>
-            <p>THE ZOO WILDLIFE PARK</p>
+            <a href="index.html">THE ZOO WILDLIFE PARK</a>
             <div class="menu">
                 <a href="pages/tickets.html"> TICKETS </a>
                 <a href="pages/gallery.html"> GALLERY </a>
                 <a href="pages/"> OUR ANIMALS </a>
                 <a href="pages/FAQ.html"> FAQ'S </a>
+                <button>BOOK NOW</button>
             </div>
         </nav>
+    </header>
+    <div class="introduction">
         <div class="background-image">
         </div>
         <div class="description">
@@ -71,7 +74,7 @@
         </div>
     </div>
 
-    <div class="section-4">
+    <div class="section-4" id="timing">
         <div class="contact">
             <h1>Contact Us</h1>
             <form>
@@ -100,6 +103,73 @@
             </div>
         </div>
     </div>
+
+    <div class="reviews-section">
+        <h1> REVIEWS </h1>
+        <div class="reviews">
+            <div class="customer">
+                <p class="user-name">Niyas Thellashery</p>
+                <p class="user-review">Very good for family, especially kids. A medium size zoo. 2 or 3 hours is enough
+                    to spend across. A lot of wild animals are available. We can feed grass to some animals. Cages are
+                    just 1 meter away, so we can see animals clearly.</p>
+            </div>
+            <div class="customer">
+                <p class="user-name">M A Mohamed Riyasudeen</p>
+                <p class="user-review">Enjoyed a wonderful day at the wildlife zoo! The ticket price was fair, and the
+                    variety of animals was impressive. However, it would be great if they could arrange parking for
+                    visitors.</p>
+            </div>
+            <div class="customer">
+                <p class="user-name">AFZAL AHAMED</p>
+                <p class="user-review">The Zoo Wild Life Park in Umm Al Quwain is a hidden paradise! It boasts a
+                    fantastic variety of wildlife, well-maintained facilities, and exciting interactive opportunities. A
+                    perfect outing for families and nature enthusiasts alike!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d66199.47319218519!2d55.656528776083746!3d25.44107424339301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5efcb47aa2c89%3A0xbd689eddf431ea7b!2sThe%20Zoo%20Wild%20Life%20Park%20Umm%20Al%20Quwain!5e0!3m2!1sen!2sae!4v1714210275365!5m2!1sen!2sae"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer>
+        <div class="last-section">
+            <div class="subscribe">
+                <p class="foot-title">GET THE NEWSLETTER</p>
+                <p>Subscribe your email now to receive all the news about The Zoo Wildlife Park </p>
+                <form>
+                    <input type="text" id="email" placeholder="Email Address">
+                    <input type="submit" value="Subscribe" id="submit" onclick="prevent(event)">
+                </form>
+            </div>
+
+            <div class="social-media">
+                <p class="foot-title">Follow Us</p>
+                <a href="https://www.facebook.com/TheZooPark/" target="_blank"><img src="/Images/facebook-white.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/TheZooWildlifePark/" target="_blank"><img src="/Images/instagram.png" alt="Instagram"></a>
+                <a href="https://www.tiktok.com/@thezoopark" target="_blank"><img src="/Images/tiktok.png" alt="TikTok"></a>
+                <a href="https://www.youtube.com/@thezoopark/videos" target="_blank"><img src="/Images/youtube.png" alt="Youtube"></a>
+
+            </div>
+
+            <div class="quicklinks">
+                <p class="foot-title">Quicklinks</p>
+                <a href="#timing"> Zoo Timings </a>
+                <a href="pages/tickets.html"> Tickets </a>
+                <a href="pages/gallery.html"> Gallery </a>
+                <a href="pages/gallery.html"> Booking </a>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2023 The Zoo Wildlife Park - Umm Al Quwain. All Rights Reserved.</p>
+            <p>&copy; Made by: Mohamed Shakin</p>
+
+        </div>
+    </footer>
 </body>
 <script src="JavaScript/script.js"></script>
 
