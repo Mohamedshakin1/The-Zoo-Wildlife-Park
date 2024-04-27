@@ -157,6 +157,7 @@ a{
 .attraction h1 {
     text-align: center;
     color: #de8314;
+    font-weight: 500;
 }
 
 .img-container {
@@ -238,6 +239,10 @@ a{
     padding-top: 20px;
 }
 
+.about h1 {
+    font-weight: 500;
+}
+
 .subtitle {
     font-size: 25px;
     margin-top: 50px;
@@ -255,13 +260,17 @@ a{
 
 .section-4 {
     display: flex;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .timing {
     color: #de8314;
     text-align: center;
     width: 50%;
+}
+
+.timing h1{
+    font-weight: 500;
 }
 
 .days {
@@ -278,6 +287,7 @@ a{
 
 .contact h1 {
     color: #de8314;
+    font-weight: 500;
 }
 
 input[type=text], textarea {
@@ -324,7 +334,10 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+}
 
+.reviews-section h1 {
+    font-weight: 500;
 }
 
 .customer {
@@ -438,6 +451,7 @@ footer {
     color: #de8314;
     text-align: center;
     margin-top: 50px;
+    font-weight: 500;
 }
 
 #ticket-title {
@@ -473,4 +487,48 @@ footer {
 .ticket-details{
     color: #414141;
     font-size: 15px;
+}
+
+/*FAQ'S page*/
+
+.FAQ {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    justify-content: space-between;
+    font-size: 22px;
+    border-bottom: 2px solid #de8314;
+}
+
+.button {
+    cursor: pointer;
+    font-weight: 600;
+    user-select: none;
+}
+
+.button:hover{
+    color: #de8314;
+}
+
+.answers{
+    display: none;
+    font-weight: 300;
+}
+
+.faq-head {
+    color: #de8314;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.questions, .button {
+    color: black;
+    font-weight: 600;
+}
+
+.faq-section {
+    margin-bottom: 100px;
 }
