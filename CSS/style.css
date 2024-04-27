@@ -28,7 +28,7 @@ body {
 }
 
 .background-image{
-    background-image: url('https://images.unsplash.com/photo-1534567153574-2b12153a87f0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8em9vfGVufDB8fDB8fHww');
+    background-image: url('../Images/zoo1.jpg');
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
