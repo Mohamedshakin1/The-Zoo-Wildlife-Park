@@ -1,8 +1,12 @@
+//home page
+
 var image1= document.querySelector("#image1")
 var image2= document.querySelector("#image2")
 var image3= document.querySelector("#image3")
 var image4= document.querySelector("#image4")
 var image5= document.querySelector("#image5")
+var button1=document.querySelector("#button1")
+var FAQ=document.querySelector("#FAQ")
 
 image1.addEventListener("mouseover", function(){
     text1=document.querySelector("#text1")
@@ -58,3 +62,4 @@ image5.addEventListener("mouseout", function(){
 function prevent(event) {
     event.preventDefault()
 }
+
