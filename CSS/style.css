@@ -402,6 +402,7 @@ footer {
 
 .subscribe input[type=text] {
     background-color: #FF6500;
+    color: white;
     border: none;
     border-bottom: 2px solid white;
     border-radius: 0%
@@ -457,6 +458,10 @@ footer {
     text-align: center;
     margin-top: 50px;
     font-weight: 500;
+}
+
+.ticket-section {
+    margin-bottom: 100px;
 }
 
 #ticket-title {
