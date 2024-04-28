@@ -418,9 +418,18 @@ footer {
     font-weight: 500;
 }
 
+.subscribe input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
+
 .social-media img {
     height: 35px;
     width: 35px;
+}
+
+.social-media img:hover {
+    filter: invert();
 }
 
 .quicklinks {
@@ -433,6 +442,10 @@ footer {
     font-weight: 400;
     padding-bottom: 10px;
     padding-top: 0px;
+}
+
+.quicklinks a:hover{
+    color: black;
 }
 
 .copyright {
