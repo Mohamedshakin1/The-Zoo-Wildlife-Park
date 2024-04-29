@@ -57,9 +57,38 @@ nav {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.menu {
+    width: 45%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+
+.menu a{
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/* a{
     margin: 0;
     padding-top: 25px;
     z-index: 2;
@@ -67,7 +96,6 @@ a{
     color: white;
     font-size: 25px;
     font-weight: 600;
-    margin: 0;
 }
 
 .menu {
@@ -86,7 +114,7 @@ a{
     color: white;
     font-size: 20px;
     font-weight: 500;
-}
+}*/
 
 .menu a:hover{
     border-bottom: 3px solid white;
@@ -100,8 +128,12 @@ a{
     border-radius: 4px;
     padding: 10px 10px;
     scale: 1.1;
-    margin-top: -5px;
     cursor: pointer;
+}
+
+.booking-button{
+    text-decoration: none;
+    align-items: center;
 }
 
 .menu button:hover{
@@ -136,7 +168,7 @@ a{
 .description button{
     font-size: 18px;
     padding: 15px;
-    z-index: 2;
+    z-index: 4;
     background-color: #FF9800;
     color: white;
     border: none;
@@ -472,11 +504,12 @@ footer {
     width: 90%;
 }
 
-.ticket-head{
+.ticket-head, .faq-head, .our-animal-head, .gallery-head, .booking-head{
     color: #FF6500;
     text-align: center;
     margin-top: 50px;
     font-weight: 500;
+    margin-bottom: 50px;
 }
 
 .ticket-section {
@@ -545,14 +578,6 @@ footer {
     font-weight: 300;
 }
 
-.faq-head {
-    color: #FF6500;
-    margin-top: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-    font-weight: 500;
-}
-
 .questions, .button {
     color: black;
     font-weight: 500;
@@ -563,13 +588,6 @@ footer {
 }
 
 /*Our Animals page*/
-.our-animal-head {
-    color: #FF6500;
-    margin-top: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-    font-weight: 500;
-}
 
 .animal-section {
     color: black;
@@ -608,10 +626,4 @@ footer {
 
 /*Gallery page*/
 
-.gallery-head{
-    color: #FF6500;
-    margin-top: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-    font-weight: 500;
-}
+/*Booking page*/
