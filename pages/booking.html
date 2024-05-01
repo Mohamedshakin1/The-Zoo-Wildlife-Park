@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOOKING | The Zoo Wildlife Park</title>
+    <link rel="icon" type="image/x-icon" href="../Images/Logo.png">
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body id="booking">
     <header>
         <nav>
@@ -24,7 +28,121 @@
     </header>
 
     <h1 class="booking-head">BOOKING</h1>
+    <div class="booking-section">
+        <div class="bookbox">
+            <form>
+                <div class="ticket-type">
+                    <div class="input-info">
+                        <label for="date">Select the date:</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="date" id="date" min="2024-05-01" max="2025-01-01">
+                    </div>
+                </div>
+                <div class="ticket-type">
+                    <div class="input-info">
+                        <label for="adult-ticket">Number of tickets (Adult):</label>
+                    </div>
+                    <div class="input-box">
+                        <select id="adult-ticket" onchange="amount()">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="ticket-type">
+                    <div class="input-info">
+                        <label for="children-ticket">Number of tickets (Children):</label>
+                    </div>
+                    <div class="input-box">
+                        <select id="chilren-ticket" onchange="amount()">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="total">
+            <p>Total amount of cost:  &nbsp</p>
+            <p id="total_amount">AED 0</p>
+        </div>
+    </div>
+
+    
+
+    <footer>
+        <div class="last-section">
+            <div class="subscribe">
+                <p class="foot-title">GET THE NEWSLETTER</p>
+                <p>Subscribe your email now to receive all the news about The Zoo Wildlife Park </p>
+                <form>
+                    <input type="email" id="email" placeholder="Email Address">
+                    <input type="submit" value="Subscribe" id="submit" onclick="prevent(event)">
+                </form>
+            </div>
+
+            <div class="social-media">
+                <p class="foot-title">Follow Us</p>
+                <a href="https://www.facebook.com/TheZooPark/" target="_blank"><img src="..//Images/facebook-white.png"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/TheZooWildlifePark/" target="_blank"><img
+                        src="..//Images/instagram.png" alt="Instagram"></a>
+                <a href="https://www.tiktok.com/@thezoopark" target="_blank"><img src="..//Images/tiktok.png"
+                        alt="TikTok"></a>
+                <a href="https://www.youtube.com/@thezoopark/videos" target="_blank"><img src="..//Images/youtube.png"
+                        alt="Youtube"></a>
+
+            </div>
+
+            <div class="quicklinks">
+                <p class="foot-title">Quicklinks</p>
+                <a href="../index.html#timing"> Zoo Timings </a>
+                <a href="../pages/tickets.html"> Tickets </a>
+                <a href="../pages/gallery.html"> Gallery </a>
+                <a href="#booking"> Booking </a>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2024 The Zoo Wildlife Park - Umm Al Quwain. All Rights Reserved.</p>
+            <p>&copy; Made by: Mohamed Shakin</p>
+
+        </div>
+    </footer>
     
 
 </body>
+<script src="../JavaScript/script3.js"></script>
+<script src="../JavaScript/script.js"></script>
 </html>
