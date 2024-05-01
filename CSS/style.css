@@ -305,7 +305,7 @@ a{
     font-weight: 500;
 }
 
-input[type=text], textarea {
+input[type=text], textarea, input[type=email] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -410,7 +410,7 @@ footer {
     margin-bottom: 50px;
 }
 
-.subscribe input[type=text] {
+.subscribe input[type=email] {
     background-color: #FF6500;
     color: white;
     border: none;
@@ -418,7 +418,7 @@ footer {
     border-radius: 0%
 }
 
-.subscribe input[type=text]::placeholder{
+.subscribe input[type=email]::placeholder{
     color: white;
 }
 
@@ -599,3 +599,55 @@ footer {
 /*Gallery page*/
 
 /*Booking page*/
+
+.booking-section {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.bookbox {
+    display: flex;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+form {
+    width: 100%;
+}
+
+.ticket-type{
+    font-size: 22px;
+    margin-top: 25px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=date], .input-box select {
+    width: 150px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.total {
+    display: flex;
+    color: #FF6500;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+}
