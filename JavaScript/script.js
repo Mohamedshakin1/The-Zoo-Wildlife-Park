@@ -58,8 +58,3 @@ image5.addEventListener("mouseout", function(){
     text5.style.display="none"
 })
 
-
-function prevent(event) {
-    event.preventDefault()
-}
-
