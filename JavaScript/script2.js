@@ -100,14 +100,3 @@ button6.addEventListener("click", function(){
     }
 }
 )
-
-var adult_ticket=document.querySelector("#adult-ticket")
-var total=document.querySelector("#total_amount")
-
-function amount(){
-    var value1=adult_ticket.value
-    total.innerHTML=value1*25
-}
-
-
-
