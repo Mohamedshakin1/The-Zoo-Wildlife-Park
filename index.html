@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Zoo Wildlife Park</title>
-    <link rel="icon" type="image/x-icon" href="Images/Logo.png">
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>The Zoo Wildlife Park</title>    <!--title of the page is shown in browser tab-->
+    <link rel="icon" type="image/x-icon" href="Images/Logo.png">   <!--image is displayed to left of the title page in browser tab-->
+    <link rel="stylesheet" href="CSS/style.css">  <!--Linking to CSS file from a folder-->
+
+    <!--Linking to google font to use Rubik font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -15,18 +17,22 @@
 </head>
 
 <body id="home">
+
+    <!--Navigation links in menu bar, the menu bar is sticks on top of the screen throughout the page-->
     <header>
         <nav>
-            <a href="#home">THE ZOO WILDLIFE PARK</a>
+            <a href="#home">THE ZOO WILDLIFE PARK</a>    <!--This link redirects to beginning of the home page-->
             <div class="menu">
-                <a href="pages/tickets.html">TICKETS</a>
-                <a href="pages/gallery.html">GALLERY</a>
-                <a href="pages/animals.html">OUR ANIMALS</a>
-                <a href="pages/FAQ.html">FAQ'S</a>
-                <div class="booking-button"><a href="pages/booking.html"><button>BOOK NOW</button></a></div>
+                <a href="pages/tickets.html">TICKETS</a>      <!--This link redirects to tickets page-->
+                <a href="pages/gallery.html">GALLERY</a>      <!--This link redirects to gallery page-->
+                <a href="pages/animals.html">OUR ANIMALS</a>  <!--This link redirects to animals page-->
+                <a href="pages/FAQ.html">FAQ'S</a>            <!--This link redirects to FAQ page-->
+                <div class="booking-button"><a href="pages/booking.html"><button>BOOK NOW</button></a></div>  <!--This button is redirects to booking page-->
             </div>
         </nav>
     </header>
+
+    <!--The first section has a zoo background image, a small description text, and a button.-->
     <div class="introduction">
         <div class="background-image">
         </div>
@@ -38,6 +44,8 @@
     </div>
     </div>
 
+    <!--Main attraction section has some set of animal images. When user points mouse over the each image, the image will expands its width with less opacity
+         and will appear the name of the animal-->
     <div class="attraction">
         <h1>MAIN ATTRACTION</h1>
         <div class="img-container">
@@ -59,6 +67,7 @@
         </div>
     </div>
 
+    <!--About Us section has some information about their zoo with zoo image-->
     <div class="about-us">
         <div class="about">
             <h1>ABOUT US</h1>
@@ -74,6 +83,9 @@
         </div>
     </div>
 
+    <!--Contact Us section is a form where the user can fill their details into input field of name, phone, email and subject-->
+    <!--required attribute is used here to display the message to fill all the information in order to submit the form, if user try to submit the without filling the all 
+        the forms-->
     <div class="section-4" id="timing">
         <div class="contact">
             <h1>Contact Us</h1>
@@ -90,6 +102,7 @@
             </form>
         </div>
 
+        <!--Zoo timing section is consists of information about zoo timing-->
         <div class="timing">
             <h1>Zoo Timings</h1>
             <div class="days">
@@ -104,6 +117,7 @@
         </div>
     </div>
 
+    <!--Reviews section consists of information about users feedback about zoo and their experience-->
     <div class="reviews-section">
         <h1> REVIEWS </h1>
         <div class="reviews">
@@ -128,12 +142,14 @@
         </div>
     </div>
 
+    <!--Map section where the user can see the location of the zoo-->
     <div class="map">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d66199.47319218519!2d55.656528776083746!3d25.44107424339301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5efcb47aa2c89%3A0xbd689eddf431ea7b!2sThe%20Zoo%20Wild%20Life%20Park%20Umm%20Al%20Quwain!5e0!3m2!1sen!2sae!4v1714210275365!5m2!1sen!2sae"
             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
+    <!--Footer section consists of subscription form, social media links, quick links and copyright information-->
     <footer>
         <div class="last-section">
             <div class="subscribe">
@@ -170,6 +186,8 @@
 
         </div>
     </footer>
+    
 </body>
+<!--Linking to JavaScript file from a folder-->
 <script src="JavaScript/script.js"></script>
 </html>
