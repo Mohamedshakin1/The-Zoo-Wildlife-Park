@@ -3,40 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GALLERY | The Zoo Wildlife Park</title>
-    <link rel="icon" type="image/x-icon" href="../Images/Logo.png">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <title>GALLERY | The Zoo Wildlife Park</title>    <!--title of the page is shown in browser tab-->
+    <link rel="icon" type="image/x-icon" href="../Images/Logo.png">    <!--image logo is displayed to left of the title page in browser tab-->
+    <link rel="stylesheet" href="../CSS/style.css">    <!--Linking to CSS file from a folder-->
+
+    <!--Linking to google font to use Rubik font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body id="gallery">
+
+    <!--Navigation links in menu bar, the menu bar is sticks on top of the screen throughout the page-->
     <header>
         <nav>
-            <a href="../index.html">THE ZOO WILDLIFE PARK</a>
+            <a href="../index.html">THE ZOO WILDLIFE PARK</a>   <!--This link redirects to home page-->
             <div class="menu">
-                <a href="../pages/tickets.html"> TICKETS </a>
-                <a href="#gallery"> GALLERY </a>
-                <a href="../pages/animals.html"> OUR ANIMALS </a>
-                <a href="../pages/FAQ.html"> FAQ'S </a>
-                <div class="booking-button"><a href="../pages/booking.html"><button>BOOK NOW</button></a></div>
+                <a href="../pages/tickets.html"> TICKETS </a>       <!--This link redirects to ticket page-->
+                <a href="#gallery"> GALLERY </a>                    <!--This link moves to beginning of the gallery page-->
+                <a href="../pages/animals.html"> OUR ANIMALS </a>   <!--This link redirects to animals page-->
+                <a href="../pages/FAQ.html"> FAQ'S </a>             <!--This link redirects to FAQ page-->
+                <div class="booking-button"><a href="../pages/booking.html"><button>BOOK NOW</button></a></div>   <!--This button is redirects to booking page-->
             </div>
         </nav>
     </header>
 
+    <!--Gallery section, all images are placed next to each other with their original aspect ratio of the image-->
+    <!--We used title attribute. When the user points mouse over each image, it will show the text of that particular image-->
     <h1 class="gallery-head">PHOTO GALLERY</h1>
     <div class="gallery-container"> 
+        <!--First column-->
         <div class="column">
             <img src="https://img1.wsimg.com/isteam/ip/9b18cace-782f-4a0e-934d-9978fd8576c5/PSX_20221219_152558.jpg/:/rs=w:1280,h:1707" alt="Lemurs" title="Lemurs">
             <img src="https://img1.wsimg.com/isteam/ip/9b18cace-782f-4a0e-934d-9978fd8576c5/PSX_20221222_162313.jpg/:/rs=w:1280,h:1707" alt="Tiger" title="Tiger">
             <img src="https://img1.wsimg.com/isteam/ip/9b18cace-782f-4a0e-934d-9978fd8576c5/PSX_20221128_111642.jpg/:/rs=w:1160,h:773" alt="Ducks" title="Ducks">
         </div>
+        <!--Second column-->
         <div class="column">
             <img src="https://img1.wsimg.com/isteam/stock/40404/:/rs=w:1280,h:853" alt="Crocodile" title="Crocodile">
             <img src="https://img1.wsimg.com/isteam/ip/9b18cace-782f-4a0e-934d-9978fd8576c5/PSX_20221128_110840.jpg/:/rs=w:1280,h:854" alt="Giraffe" title="Giraffe">
             <img src="https://img1.wsimg.com/isteam/ip/9b18cace-782f-4a0e-934d-9978fd8576c5/PSX_20221128_111812.jpg/:/rs=w:1160,h:773" alt="Birds & Reptiles" title="Birds & Reptiles">
             <img src="https://img1.wsimg.com/isteam/ip/9b18cace-782f-4a0e-934d-9978fd8576c5/IMG-20221226-WA0004.jpg/:/" alt="Orangutan" title="Orangutan">
         </div>  
+        <!--Third column-->
         <div class="column">
             <img src="https://img1.wsimg.com/isteam/stock/40397/:/rs=w:1280,h:1079" alt="Monkey" title="Monkey">
             <img src="https://img1.wsimg.com/isteam/ip/9b18cace-782f-4a0e-934d-9978fd8576c5/PSX_20221128_102816.jpg/:/rs=w:1280,h:854" alt="Giraffe" title="Giraffe">
@@ -45,6 +54,7 @@
         </div>
     </div>
 
+    <!--Footer section consists of subscription form, social media links, quick links and copyright information-->
     <footer>
         <div class="last-section">
             <div class="subscribe">
@@ -58,23 +68,19 @@
 
             <div class="social-media">
                 <p class="foot-title">Follow Us</p>
-                <a href="https://www.facebook.com/TheZooPark/" target="_blank"><img src="..//Images/facebook-white.png"
-                        alt="Facebook"></a>
-                <a href="https://www.instagram.com/TheZooWildlifePark/" target="_blank"><img
-                        src="..//Images/instagram.png" alt="Instagram"></a>
-                <a href="https://www.tiktok.com/@thezoopark" target="_blank"><img src="..//Images/tiktok.png"
-                        alt="TikTok"></a>
-                <a href="https://www.youtube.com/@thezoopark/videos" target="_blank"><img src="..//Images/youtube.png"
-                        alt="Youtube"></a>
+                <a href="https://www.facebook.com/TheZooPark/" target="_blank"><img src="..//Images/facebook-white.png" alt="Facebook"></a>        <!--This link will open in new tab-->
+                <a href="https://www.instagram.com/TheZooWildlifePark/" target="_blank"><img src="..//Images/instagram.png" alt="Instagram"></a>   <!--This link will open in new tab-->
+                <a href="https://www.tiktok.com/@thezoopark" target="_blank"><img src="..//Images/tiktok.png" alt="TikTok"></a>                    <!--This link will open in new tab-->
+                <a href="https://www.youtube.com/@thezoopark/videos" target="_blank"><img src="..//Images/youtube.png" alt="Youtube"></a>          <!--This link will open in new tab-->
 
             </div>
 
             <div class="quicklinks">
-                <p class="foot-title">Quicklinks</p>
-                <a href="../index.html#timing"> Zoo Timings </a>
-                <a href="../pages/tickets.html"> Tickets </a>
-                <a href="#gallery"> Gallery </a>
-                <a href="../pages/booking.html"> Booking </a>
+                <p class="foot-title">Quicklinks</p>             
+                <a href="../index.html#timing"> Zoo Timings </a>   <!--This link redirects to home page and moves to zoo timing section-->
+                <a href="../pages/tickets.html"> Tickets </a>      <!--This link redirects to ticket page-->
+                <a href="#gallery"> Gallery </a>                   <!--This link moves to beginning of the gallery page-->
+                <a href="../pages/booking.html"> Booking </a>      <!--This link redirects to booking page-->
 
             </div>
         </div>
