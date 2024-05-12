@@ -185,16 +185,19 @@ sets cursor to pointer */
     cursor: pointer;
 }
 
+/*Main attraction section position is adjusted*/
 .attraction {
     margin-top: -130px;
 }
 
+/*Heading of main attraction section is aligned to center and set color to "#FF6500" */
 .attraction h1 {
     text-align: center;
     color: #FF6500;
     font-weight: 500;
 }
 
+/*Image container, it set width to 80% and images are placed next to each other  */
 .img-container {
     margin-left: auto;
     margin-right: auto;
@@ -204,6 +207,7 @@ sets cursor to pointer */
     justify-content: center;
 }
 
+/*Inserting background image from a folder and keeping its original aspect ratio of image size*/
 #image1 {
     background-image: url('../Images/gold-tiger.jpg');
     background-size:cover ;
@@ -234,6 +238,7 @@ sets cursor to pointer */
     background-position-x: center;
 }
 
+/* Each image box is set height and width to 250px and text in image box is aligned center in both horizonally and vertically*/
 .images {
     height: 250px;
     width: 250px;
@@ -242,6 +247,7 @@ sets cursor to pointer */
     align-items: center;
 }
 
+/* The text in image box, it sets color to black and it hides the text*/
 .images p {
     z-index: 2;
     display: none;
@@ -250,22 +256,26 @@ sets cursor to pointer */
     font-weight: 700;
 }
 
+/*When the mouse is points to images, it will expand its width to 350px and reduce the opacity to 0.6 in 3 seconds*/
 .images:hover {
     width: 350px;
     transition: 3s;
     opacity: 0.6;
 }
 
+/*When the mouse pointer is away from the images, it changes back to original form in 1 second*/
 .images:not(:hover) {
     transition: 3s;
 }
 
+/*About section, the text color sets to white and description part and image part are placed next to each other */
 .about-us {
     color: white;
     display: flex;
     margin-top: 50px;
 }
 
+/*Description part, background color sets to "#FF6500" and sets width to 50% */
 .about {
     width: 50%;
     background-color: #FF6500;
@@ -275,61 +285,73 @@ sets cursor to pointer */
     padding-top: 30px;
 }
 
+/*Heading of about section*/
 .about h1 {
     font-weight: 500;
 }
 
+/*Sub heading of about section*/
 .subtitle {
     font-size: 25px;
     margin-top: 50px;
 }
 
+/*Description of about section*/
 .about-description {
     font-size: 18px;
 }
 
+/*Image is placed on the right half of the about section*/
 .about-image {
     width: 50%;
 }
 
+/*Image of about section, it sets height and width to 100% and keeping its original aspect ratio of image size*/
 .about-image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
+/*Contact and Zoo timing section*/
 .section-4 {
     display: flex;
     margin-top: 20px;
 }
 
+/*Zoo timing section, it sets text color to "#FF6500" and text aligned to center */
 .timing {
     color: #FF6500;
     text-align: center;
     width: 50%;
 }
 
+/*Heading of Zoo timing section*/
 .timing h1{
     font-weight: 500;
 }
 
+/*Text of zoo timing section*/
 .days {
     color: black;
     margin-top: 25px;
     font-size: 18px;
 }
 
+/*Contact us section*/
 .contact {
     color: black;
     width: 50%;
     margin-left: 10%
 }
 
+/*Heading of contact section*/
 .contact h1 {
     color: #FF6500;
     font-weight: 500;
 }
 
+/*Input box of contact section*/
 input[type=text], textarea, input[type=email] {
   width: 100%;
   padding: 12px;
@@ -341,10 +363,12 @@ input[type=text], textarea, input[type=email] {
   font-family: "Rubik", sans-serif;
 }
 
+/*It removes outline of input box*/
 input:focus, textarea:focus {
     outline: none;
 }
 
+/*Submit button of contact section*/
 input[type=submit] {
   background-color: #FF6500;
   color: white;
@@ -355,11 +379,13 @@ input[type=submit] {
   font-family: "Rubik", sans-serif;
 }
 
+/*When the mouse is points to submit button, it will changes background color to black and text color to white*/
 input[type=submit]:hover {
   background-color: black;
   color: white;
 }
 
+/*Reviews section, it sets width to 100%, background color to "#FF6500" and text color to white*/
 .reviews-section {
     margin-left: auto;
     margin-right: auto;
@@ -369,6 +395,7 @@ input[type=submit]:hover {
     color: white;
 }
 
+/*review container, it sets width to 80% and user-review boxes are placed next to each other*/
 .reviews {
     display: flex;
     margin-left: auto;
@@ -376,10 +403,15 @@ input[type=submit]:hover {
     width: 80%;
 }
 
+/*heading of reviews section, text aligns to center*/
 .reviews-section h1 {
     font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
+/*User-review box, it sets background color to white and text color to black*/
 .customer {
     background-color: white;
     color: black;
@@ -391,17 +423,13 @@ input[type=submit]:hover {
     font-size: 18px;
 }
 
+/*User-name*/
 .user-name{
     font-weight: 600;
     font-size: 20px;
 }
 
-.reviews-section h1{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 15px;
-}
-
+/*Map container, it sets height to 300px and width to 99.5%*/
 .map {
     margin-left: auto;
     margin-right: auto;
@@ -409,11 +437,13 @@ input[type=submit]:hover {
     height: 300px;
 }
 
+/*Map, it sets height and width to 100%*/
 .map iframe {
     width: 100%;
-    height: 300px;
+    height: 100%;
 }
 
+/*Footer, it sets background color to "#FF6500"*/
 footer {
     margin-top: 5px;
     background-color: #FF6500;
@@ -421,10 +451,12 @@ footer {
     padding-bottom: 20px;
 }
 
+/*Sub heading of footer*/
 .foot-title{
     font-size: 25px;
 }
 
+/*Footer container, it sets width to 85%, display elements next to each other and it distributes the space equally between the elements */
 .last-section {
     margin-left: auto;
     margin-right: auto;
@@ -435,6 +467,7 @@ footer {
     margin-bottom: 50px;
 }
 
+/*Subscription input box, it sets background color to "#FF6500" and text color to white and it sets border bottom 2px solid white color*/
 .subscribe input[type=email] {
     background-color: #FF6500;
     color: white;
@@ -443,35 +476,42 @@ footer {
     border-radius: 0%
 }
 
+/*it sets placeholder text color to white color*/
 .subscribe input[type=email]::placeholder{
     color: white;
 }
 
+/*Subscribe button, it sets button background color to white and text color to "#FF6500"*/
 .subscribe input[type=submit] {
     background-color: white;
     color: #FF6500;
     font-weight: 500;
 }
 
+/*When the mouse is points to subscribe button, it will changes background color to black and text color to white*/
 .subscribe input[type=submit]:hover {
     background-color: black;
     color: white;
 }
 
+/*Social media images, it sets height and width of the image to 35px*/
 .social-media img {
     height: 35px;
     width: 35px;
 }
 
+/*When the mouse is points to social media images, it inverts the color*/
 .social-media img:hover {
     filter: invert();
 }
 
+/* quicklinks section, it displays the elements one line after the other*/
 .quicklinks {
     display: flex;
     flex-direction: column;
 }
 
+/*Links of quicklinks*/
 .quicklinks a{
     font-size: 18px;
     font-weight: 400;
@@ -479,10 +519,12 @@ footer {
     padding-top: 0px;
 }
 
+/**When the mouse is points to link, it changes color of the link to black*/
 .quicklinks a:hover{
     color: black;
 }
 
+/*Copyright text aligned to center */
 .copyright {
     text-align: center;
 }
@@ -492,8 +534,10 @@ footer {
     font-size: 18px;
 }
 
+
 /* Ticket Page*/
 
+/*catergory-container, it sets width to 80% */
 .category {
     color: black;
     margin-left: auto;
@@ -501,6 +545,7 @@ footer {
     width: 80%;
 }
 
+/*Heading of ticket page, gallery page, FAQ page, booking page and animals page, it sets text color to "#FF6500" and text aligned to center*/
 .ticket-head, .faq-head, .our-animal-head, .gallery-head, .booking-head{
     color: #FF6500;
     text-align: center;
@@ -509,10 +554,12 @@ footer {
     margin-bottom: 50px;
 }
 
+/*It sets gap between ticket-section and footer*/
 .ticket-section {
     margin-bottom: 100px;
 }
 
+/*subheading text sets color to #FF6500*/
 #ticket-title {
     color: #FF6500;
     margin-top: 50px;
@@ -520,35 +567,42 @@ footer {
     margin-bottom: 10px;
 }
 
+/*Ticket category is displayed in two columns*/
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-  }
+}
 
-  .grid-container > div {
+/*Divs in each ticket category are placed next to each other and it distributes the space equally between the divs*/
+.grid-container > div {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
     width: 500px;
 }
 
+/*It sets ticket title and ticket description width to 80%*/
 .type {
     width: 80%;
     font-size: 22px;
 }
 
+/*It sets font-size of ticket rate to 22px*/
 .rate {
     font-size: 22px;
 }
 
+/* It sets ticket description text color to "#414141" */
 .ticket-details{
     color: #414141;
     font-size: 15px;
 }
 
+
 /*FAQ'S page*/
 
+/*question container sets width to 60%, question and button are placed next to each other with spaced between them and it sets border bottom 2px solid white color*/
 .FAQ {
     display:flex;
     margin-left: auto;
@@ -559,37 +613,46 @@ footer {
     border-bottom: 2px solid #FF6500;
 }
 
+/*User cannot select "+" button because I disabled select option to this button*/
 .button {
     cursor: pointer;
     font-weight: 600;
     user-select: none;
 }
 
+/*When the mouse is points to "+" button, it changes the color to "#FF6500" */
 .button:hover{
     color: #FF6500;
 }
 
+/*It hides the answer of the question*/
 .answers{
     display: none;
     font-weight: 300;
 }
 
+/*It sets color of questions and button to black */
 .questions, .button {
     color: black;
     font-weight: 500;
 }
 
+/*It sets gap between the FAQ section and footer*/
 .faq-section {
     margin-bottom: 100px;
 }
 
+
 /*Our Animals page*/
 
+/*It sets text color to black and it sets gap between the animal-section and footer*/
 .animal-section {
     color: black;
     margin-bottom: 100px;
 }
 
+/*Animal box, it sets width to 80%, animal image and animal details are placed next to each other with spaced between them and 
+animal details are aligned vertically center to animal image*/
 .animal-box {
     display: flex;
     justify-content: space-between;
@@ -600,6 +663,7 @@ footer {
     margin-bottom: 50px;
 }
 
+/*It sets height and width of the animal image to 250 px and it sets border radius to 50% and border color to "#FF6500" and keeping its original aspect ratio of image size */
 .animal-img img{
     height: 250px;
     width: 250px;
@@ -608,11 +672,13 @@ footer {
     border: 5px solid #FF6500;
 }
 
+/*It sets width of the animal-detail to 65%*/
 .animal-details {
     width: 65%;
     font-size: 20px;
 }
 
+/*It sets font-weight of animal name to 500px*/
 .animal-name {
     font-weight: 500;
     font-size: 23px;
@@ -620,8 +686,10 @@ footer {
     margin-bottom: 15px;
 }
 
+
 /*Gallery page*/
 
+/*It sets width of gallery container to 80% and height to 1600px*/
 .gallery-container {
     margin-left: auto;
     margin-right: auto;
@@ -629,20 +697,24 @@ footer {
     height: 1600px
 }
 
+/*It sets width of the column to 33% and columns are placed one after the other column*/
 .column {
     float: left;
     width: 33%;
     padding: 5px;
     box-sizing: border-box;
-  }
-  
+}
+
+/*Images are inserted in columns with thier original aspect ratio of the image and gaps between the images is 5px*/
 .column img {
     margin-top: 5px;
     width: 100%;
 }
 
+
 /*Booking page*/
 
+/*It sets width of booking-section to 80% and sets gap between the booking-section and footer to 50px*/
 .booking-section {
     color: black;
     margin-left: auto;
@@ -651,19 +723,12 @@ footer {
     margin-bottom: 50px;
 }
 
-.bookbox {
-    display: flex;
-    font-size: 22px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    justify-content: space-between;
+/*It sets gap between the heading and booking-section to 75px*/
+.book-box {
+    margin-top: 75px;
 }
 
-form {
-    width: 100%;
-}
-
+/*Label and input box are placed next to each with spaced between them and input box are aligned vertically center to label*/
 .ticket-type{
     font-size: 22px;
     margin-top: 25px;
@@ -675,6 +740,7 @@ form {
     align-items: center;
 }
 
+/*Input box of booking section */
 input[type=date], .input-box select {
     width: 150px;
     padding: 12px;
@@ -684,6 +750,7 @@ input[type=date], .input-box select {
     font-family: "Rubik", sans-serif;
 }
 
+/**/
 .total {
     display: flex;
     color: #FF6500;
