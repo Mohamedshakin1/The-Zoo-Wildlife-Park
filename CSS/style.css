@@ -750,7 +750,7 @@ input[type=date], .input-box select {
     font-family: "Rubik", sans-serif;
 }
 
-/**/
+/*In total container, it displays the elements next to each other and sets text color to "#FF6500" and aligns whole element in horizontally center*/
 .total {
     display: flex;
     color: #FF6500;
