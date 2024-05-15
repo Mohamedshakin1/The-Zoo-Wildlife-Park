@@ -82,6 +82,7 @@ a{
     z-index: 2;
 }
 
+/*when mouse cursor is pointed to link, the text will make glowing effect*/
 nav a:hover {
     text-shadow: 0px 0px 2px;
 }
@@ -715,6 +716,16 @@ animal details are aligned vertically center to animal image*/
     width: 100%;
 }
 
+/*when mouse cursor is pointed to image, the forms shadow behind the image in 1 second*/
+.column img:hover {
+    box-shadow: 0px 0px 10px 1px #FF6500;
+    transition: 1s;
+}
+
+/*when mouse cursor is not pointed to image, it removes the shadow in 1 second*/
+.column img:not(:hover) {
+    transition: 1s;
+}
 
 /*Booking page*/
 
