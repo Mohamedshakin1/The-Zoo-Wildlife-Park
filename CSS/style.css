@@ -82,6 +82,10 @@ a{
     z-index: 2;
 }
 
+nav a:hover {
+    text-shadow: 0px 0px 2px;
+}
+
 /*Right side of menu bar sets width to 45% and it display the elements next each other and it distributes the space equally between the elements*/
 .menu {
     width: 45%;
