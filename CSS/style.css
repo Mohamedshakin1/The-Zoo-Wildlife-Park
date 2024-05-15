@@ -542,12 +542,12 @@ footer {
 
 /* Ticket Page*/
 
-/*catergory-container, it sets width to 80% */
+/*catergory-container, it sets width to 78% */
 .category {
     color: black;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 78%;
 }
 
 /*Heading of ticket page, gallery page, FAQ page, booking page and animals page, it sets text color to "#FF6500" and text aligned to center*/
