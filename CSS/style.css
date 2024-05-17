@@ -280,7 +280,7 @@ sets cursor to pointer */
     margin-top: 50px;
 }
 
-/*Description part, background color sets to "#FF6500" and sets width to 50% */
+/*About section description part, background color sets to "#FF6500" and sets width to 50% */
 .about {
     width: 50%;
     background-color: #FF6500;
@@ -288,6 +288,7 @@ sets cursor to pointer */
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /*Heading of about section*/
