@@ -268,7 +268,7 @@ sets cursor to pointer */
     opacity: 0.6;
 }
 
-/*When the mouse pointer is away from the images, it changes back to original form in 1 second*/
+/*When the mouse pointer is away from the images, it changes back to original form in 3 seconds*/
 .images:not(:hover) {
     transition: 3s;
 }
